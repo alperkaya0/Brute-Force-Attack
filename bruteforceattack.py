@@ -4,7 +4,7 @@ username = getpass.getuser()
 print("Hello "+username+"!")
 
 current = os.path.dirname(os.path.realpath(__file__))
-print(current)
+
 exit = 0
 
 while(exit != "exit" and exit != "Exit"):
